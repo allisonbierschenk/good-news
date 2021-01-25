@@ -102,18 +102,21 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Add baseline HTML | H | 1hrs| n/a | n/a |
-| Add baseline JS to link API | H | 3hrs| n/a | n/a |
-| Load more button | L | 2hrs| n/a | n/a |
+| Add baseline JS to call on API | H | 3hrs| n/a | n/a |
+| Testing and tweaking JS to fit the API | H | 3hrs| n/a | n/a |
+| Add event listener to dropdown options | H | 3hrs| n/a | n/a |
+| Customize HTML | H | 1hrs| n/a | n/a |
+| Basic CSS | H | 2hrs| n/a | n/a |
+| Load more button | L | 3hrs| n/a | n/a |
 | Load URL for each article | L | 2hrs| n/a | n/a |
-| Delete past results | M | 2hrs| n/a | n/a |
-| Add dropdown | H | 2hrs| n/a | n/a |
+| Delete past results function | M | 2hrs| n/a | n/a |
 | Flexbox | H | 2hrs| n/a | n/a |
 | Customize dropdown | L | 2hrs| n/a | n/a |
-| Customize content collection | H | 3hrs| n/a | n/a |
-| Customize CSS | L | 3hrs| n/a | n/a |
-| Make the sidebar sticky | L | 30 min| n/a | n/a |
-| Mobile friendly | H | 3 hours| n/a | n/a |
-| Total | H | 25.5hrs| n/a | n/a |
+| Customize CSS for dropdown section | L | 3hrs| n/a | n/a |
+| Customize CSS for results section | L | 3hrs| n/a | n/a |
+| Make the sidebar sticky | L | 1hr min| n/a | n/a |
+| Mobile friendly CSS | H | 3 hours| n/a | n/a |
+| Total | H | 34hrs| n/a | n/a |
 
 ## Code Snippet
 

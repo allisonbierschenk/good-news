@@ -7,7 +7,8 @@
 The GoodDay News App is a place where people come to see news that brightens up their day and inspires them to daydream. The app will consist of 4 filter options - Food, Travel, Entertainment, and Sports. 
 
 ## API and Data Sample
-[API link}(https://www.thenewsapi.com/account/dashboard)
+[API link](https://www.thenewsapi.com/account/dashboard)
+
 [API with key link](https://api.thenewsapi.com/v1/news/all?api_token=lP5M2Cl2kxTGETo0jr47ofrTkKI0F36z4lIzIBhw)
 
 ```{

@@ -56,7 +56,7 @@ The GoodDay News App is a place where people come to see news that brightens up 
 ```
 
 ## Wireframes
-https://wireframe.cc/pro/pp/ee036e204409937
+[Wireframe](https://wireframe.cc/pro/pp/ee036e204409937)
 
 
 
@@ -72,7 +72,6 @@ https://wireframe.cc/pro/pp/ee036e204409937
 - Sticky category side bar
 - load more button
 - remove articles when a new category is clicked
-- hero section to include a rotating giphy API
 - link out to full article
 - top result to be highlighted in a speical border box
 
@@ -102,7 +101,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Add baseline HTML | H | 1hrs| n/a | n/a |
+| Add baseline HTML | H | 2hrs| n/a | n/a |
 | Add baseline JS to link API | H | 3hrs| n/a | n/a |
 | Load more button | L | 2hrs| n/a | n/a |
 | Load for each article | L | 2hrs| n/a | n/a |
@@ -111,8 +110,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Customize dropdown | L | 2hrs| n/a | n/a |
 | Customize content collection | H | 3hrs| n/a | n/a |
 | Customize CSS | L | 3hrs| n/a | n/a |
-| Add giphy API | L | 2hrs| n/a | n/a |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Make the sidebar sticky | L | 30 min| n/a | n/a |
+| Total | H | 21hrs| n/a | n/a |
 
 ## Code Snippet
 

@@ -101,11 +101,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Add baseline HTML | H | 1hrs| n/a | n/a |
+| Add baseline HTML | H | 1hr| n/a | n/a |
 | Add baseline JS to call on API | H | 3hrs| n/a | n/a |
 | Testing and tweaking JS to fit the API | H | 3hrs| n/a | n/a |
 | Add event listener to dropdown options | H | 3hrs| n/a | n/a |
-| Customize HTML | H | 1hrs| n/a | n/a |
+| Customize HTML | H | 1hs| n/a | n/a |
 | Basic CSS | H | 2hrs| n/a | n/a |
 | Load more button | L | 3hrs| n/a | n/a |
 | Load URL for each article | L | 2hrs| n/a | n/a |
@@ -118,7 +118,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Mobile friendly CSS | H | 3 hrs| n/a | n/a |
 | Final debugging | H | 3 hrs| n/a | n/a |
 | Go live | H | 3 hrs| n/a | n/a |
-| Total | H | 34hrs| n/a | n/a |
+| Total | H | 41hrs| n/a | n/a |
 
 ## Code Snippet
 

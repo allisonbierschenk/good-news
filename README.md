@@ -56,24 +56,27 @@ The GoodDay News App is a place where people come to see news that brightens up 
 ```
 
 ## Wireframes
+https://wireframe.cc/pro/pp/ee036e204409937
+
+
 
 
 ### MVP/PostMVP
-
+- 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
-
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- dropdown feature: categories
+- 5 articles appear on click of 'category'
+- images included in article links
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
-
-- Add second API
-- Use local storage to save user favorites
+- Sticky category side bar
+- load more button
+- remove articles when a new category is clicked
+- hero section to include a rotating giphy API
+- link out to full article
+- top result to be highlighted in a speical border box
 
 ## Project Schedule
 

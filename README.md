@@ -54,11 +54,10 @@ The GoodDay News App is a place where people come to see news that brightens up 
     ]
 }
 ```
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+
 
 ### MVP/PostMVP
 

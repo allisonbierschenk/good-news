@@ -83,7 +83,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Jan 25-26| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Jan 25-26| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Jan 26| Project Approval | Incomplete
 |Jan 27| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Jan 28| Initial Clickable Model  | Incomplete
@@ -118,7 +118,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Mobile friendly CSS | H | 3 hrs| n/a | n/a |
 | Final debugging | H | 3 hrs| n/a | n/a |
 | Go live | H | 2 hrs| n/a | n/a |
-| Total | H | 41hrs| n/a | n/a |
+| Total | H | 40hrs| n/a | n/a |
 
 ## Code Snippet
 

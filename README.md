@@ -91,7 +91,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Feb 1| Presentations/Project Submission | Incomplete
 
 ## Priority Matrix
-https://wireframe.cc/pro/pp/3a2d2487a409959
+[Priority Matrix](https://wireframe.cc/pro/pp/3a2d2487a409959)
 
 ## Timeframes
 

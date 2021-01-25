@@ -62,8 +62,6 @@ https://wireframe.cc/pro/pp/ee036e204409937
 
 
 ### MVP/PostMVP
-- 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
 - dropdown feature: categories
@@ -94,8 +92,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Feb 1| Presentations/Project Submission | Incomplete
 
 ## Priority Matrix
-
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+https://wireframe.cc/pro/pp/3a2d2487a409959
 
 ## Timeframes
 
@@ -105,8 +102,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Add baseline HTML | H | 1hrs| n/a | n/a |
+| Add baseline JS to link API | H | 3hrs| n/a | n/a |
+| Load more button | L | 2hrs| n/a | n/a |
+| Delete past results | M | 2hrs| n/a | n/a |
+| Add dropdown | H | 2hrs| n/a | n/a |
+| Customize dropdown | L | 2hrs| n/a | n/a |
+| Customize content collection | H | 3hrs| n/a | n/a |
+| Customize CSS | L | 3hrs| n/a | n/a |
+| Add giphy API | L | 2hrs| n/a | n/a |
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Code Snippet

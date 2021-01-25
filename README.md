@@ -101,17 +101,20 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Add baseline HTML | H | 2hrs| n/a | n/a |
+| Add baseline HTML | H | 1hrs| n/a | n/a |
 | Add baseline JS to link API | H | 3hrs| n/a | n/a |
 | Load more button | L | 2hrs| n/a | n/a |
-| Load for each article | L | 2hrs| n/a | n/a |
+| Load URL for each article | L | 2hrs| n/a | n/a |
 | Delete past results | M | 2hrs| n/a | n/a |
 | Add dropdown | H | 2hrs| n/a | n/a |
+| Flexbox | H | 2hrs| n/a | n/a |
 | Customize dropdown | L | 2hrs| n/a | n/a |
 | Customize content collection | H | 3hrs| n/a | n/a |
 | Customize CSS | L | 3hrs| n/a | n/a |
 | Make the sidebar sticky | L | 30 min| n/a | n/a |
-| Total | H | 21hrs| n/a | n/a |
+| Mobile friendly | H | 3 hours| n/a | n/a |
+
+| Total | H | 25.5hrs| n/a | n/a |
 
 ## Code Snippet
 

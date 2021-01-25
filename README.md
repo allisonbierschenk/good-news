@@ -105,6 +105,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Add baseline HTML | H | 1hrs| n/a | n/a |
 | Add baseline JS to link API | H | 3hrs| n/a | n/a |
 | Load more button | L | 2hrs| n/a | n/a |
+| Load for each article | L | 2hrs| n/a | n/a |
 | Delete past results | M | 2hrs| n/a | n/a |
 | Add dropdown | H | 2hrs| n/a | n/a |
 | Customize dropdown | L | 2hrs| n/a | n/a |

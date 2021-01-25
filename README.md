@@ -105,7 +105,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Add baseline JS to call on API | H | 3hrs| n/a | n/a |
 | Testing and tweaking JS to fit the API | H | 3hrs| n/a | n/a |
 | Add event listener to dropdown options | H | 3hrs| n/a | n/a |
-| Customize HTML | H | 1hs| n/a | n/a |
+| Customize HTML | H | 1hr| n/a | n/a |
 | Basic CSS | H | 2hrs| n/a | n/a |
 | Load more button | L | 3hrs| n/a | n/a |
 | Load URL for each article | L | 2hrs| n/a | n/a |
@@ -114,10 +114,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Customize dropdown | L | 2hrs| n/a | n/a |
 | Customize CSS for dropdown section | L | 3hrs| n/a | n/a |
 | Customize CSS for results section | L | 3hrs| n/a | n/a |
-| Make the sidebar sticky | L | 2 hsrs| n/a | n/a |
+| Make the sidebar sticky | L | 2 hrs| n/a | n/a |
 | Mobile friendly CSS | H | 3 hrs| n/a | n/a |
 | Final debugging | H | 3 hrs| n/a | n/a |
-| Go live | H | 3 hrs| n/a | n/a |
+| Go live | H | 2 hrs| n/a | n/a |
 | Total | H | 41hrs| n/a | n/a |
 
 ## Code Snippet

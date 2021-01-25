@@ -114,8 +114,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Customize dropdown | L | 2hrs| n/a | n/a |
 | Customize CSS for dropdown section | L | 3hrs| n/a | n/a |
 | Customize CSS for results section | L | 3hrs| n/a | n/a |
-| Make the sidebar sticky | L | 1hr min| n/a | n/a |
-| Mobile friendly CSS | H | 3 hours| n/a | n/a |
+| Make the sidebar sticky | L | 2 hsrs| n/a | n/a |
+| Mobile friendly CSS | H | 3 hrs| n/a | n/a |
+| Final debugging | H | 3 hrs| n/a | n/a |
+| Go live | H | 3 hrs| n/a | n/a |
 | Total | H | 34hrs| n/a | n/a |
 
 ## Code Snippet

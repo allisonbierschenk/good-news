@@ -113,7 +113,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Customize CSS | L | 3hrs| n/a | n/a |
 | Make the sidebar sticky | L | 30 min| n/a | n/a |
 | Mobile friendly | H | 3 hours| n/a | n/a |
-
 | Total | H | 25.5hrs| n/a | n/a |
 
 ## Code Snippet

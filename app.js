@@ -21,10 +21,16 @@ const getSports = async () => {
       let image = document.createElement('img')
       image.src = sportArticle.image_url
       articleContainer.append(image)
+
+      let button = document.createElement('button')
+      button.classList.add('external-link')
+      button.innerText = 'Read More'
+      document.getElementsByClassName('external-link').href = sportArticle.url
+      articleContainer.append(button)
       
-      let url = document.createElement('url')
-      url.textContent = sportArticle.url
-      articleContainer.append(url)
+      // let url = document.createElement('url')
+      // url.textContent = sportArticle.url
+      // button.append(url)
       
     })
   } catch (error) {
@@ -34,6 +40,9 @@ const getSports = async () => {
 
 let sportButton = document.querySelector('.sports')
 sportButton.addEventListener('click', getSports)
+
+// let externalLinkButton = document.querySelector('.external-link')
+// externalLinkButton.addEventListener('click')
 
 const removeArticles = () => {
   let articleRemove = document.querySelector('.article-container')

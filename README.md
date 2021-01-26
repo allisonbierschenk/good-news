@@ -101,7 +101,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Add baseline HTML | H | 1hr| n/a | n/a |
+| Add baseline HTML | H | 1hr| n/a | 30 min |
 | Add baseline JS to call on API | H | 3hrs| n/a | n/a |
 | Testing and tweaking JS to fit the API | H | 3hrs| n/a | n/a |
 | Add event listener to dropdown options | H | 3hrs| n/a | n/a |

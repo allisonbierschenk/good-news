@@ -23,16 +23,17 @@ const getSports = async () => {
       articleContainer.append(image)
 
       let button = document.createElement('button')
-      // let readMore = sportArticle.url
       button.classList.add('readmore-button')
       articleContainer.append(button)
 
       let a = document.createElement('a')
+      // a.href = sportArticle.url
       let link = document.createTextNode('Read More')
       button.append(a)
       a.appendChild(link)
-      // a.href = sportArticle.url
       
+      let readMoreButton = document.querySelector('.readmore-button')
+      readMoreButton.addEventListener('click', `location.href=${sportArticle.url}`)
       
     })
   } catch (error) {
@@ -43,8 +44,6 @@ const getSports = async () => {
 let sportButton = document.querySelector('.sports')
 sportButton.addEventListener('click', getSports)
 
-// let readMoreButton = document.querySelector('.readmore-button')
-// readMoreButton.addEventListener('click', readmore)
 
 const removeArticles = () => {
   let articleRemove = document.querySelector('.article-container')

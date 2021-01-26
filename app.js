@@ -1,6 +1,6 @@
 const getSports = async () => {
   
-  let sports = await axios.get('https://api.thenewsapi.com/v1/news/all?api_token=lP5M2Cl2kxTGETo0jr47ofrTkKI0F36z4lIzIBhw&language=en&categories=sports')
+  let sports = await axios.get('https://api.thenewsapi.com/v1/news/all?api_token=ri3ZcpEipezAtwaf7lvk6o5r5hNFFBkPmND5ISaw&language=en&categories=sports')
   console.log(sports.data.data)
   
   removeArticles()
@@ -23,14 +23,16 @@ const getSports = async () => {
       articleContainer.append(image)
 
       let button = document.createElement('button')
-      button.classList.add('external-link')
-      button.innerText = 'Read More'
-      document.getElementsByClassName('external-link').href = sportArticle.url
+      // let readMore = sportArticle.url
+      button.classList.add('readmore-button')
       articleContainer.append(button)
+
+      let a = document.createElement('a')
+      let link = document.createTextNode('Read More')
+      button.append(a)
+      a.appendChild(link)
+      // a.href = sportArticle.url
       
-      // let url = document.createElement('url')
-      // url.textContent = sportArticle.url
-      // button.append(url)
       
     })
   } catch (error) {
@@ -41,8 +43,8 @@ const getSports = async () => {
 let sportButton = document.querySelector('.sports')
 sportButton.addEventListener('click', getSports)
 
-// let externalLinkButton = document.querySelector('.external-link')
-// externalLinkButton.addEventListener('click')
+// let readMoreButton = document.querySelector('.readmore-button')
+// readMoreButton.addEventListener('click', readmore)
 
 const removeArticles = () => {
   let articleRemove = document.querySelector('.article-container')

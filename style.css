@@ -1,0 +1,76 @@
+body {
+  font-family: 'Pragati Narrow', sans-serif;
+  margin: 20px 100px 20px 100px;
+  line-height: 30px;
+}
+.heroh1{
+  font-family: 'Monoton', cursive;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 60px;
+}
+h2 {
+  text-align: center;
+  margin: 0px 200px 100px 200px;
+  font-weight: lighter;
+  line-height: 30px;
+}
+div {
+  margin-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-top: 16px;
+}
+.sports,
+.entertainment,
+.food,
+.travel {
+  font-family: 'Pragati Narrow', sans-serif;
+  font-size: 20px;
+  width: 200px;
+  height: 30px;
+}
+.all-articles-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  float: inline-end;
+  margin-right: 100px;
+}
+.article-container {
+  display: flex;
+  flex-flow: row wrap;
+  border: solid 3px black;
+  line-height: 30px;
+}
+.image-custom {
+  height: 30%;
+  width: 30%;
+  margin: 1%;
+}
+.readmore-button-text{
+  text-decoration: none;
+  font-family: 'Pragati Narrow', sans-serif;
+  color: black;
+}
+.title-custom {
+  margin: 1%;
+}
+.description-custom {
+  font-size: larger;
+  flex: 1 100%;
+  margin: 1%;
+}
+.button-style {
+  float: right;
+  font-size: 20px;
+  order: 4;
+  flex: 1 100%;
+  border: none;
+  /* border-top: solid 5px black; */
+  align-content: center;
+  margin: 1%;
+  }

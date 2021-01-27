@@ -5,7 +5,7 @@ const getSports = async () => {
   console.log(sports.data.data)
 
   removeArticles()
-
+  
   try {
 
     sports.data.data.forEach(sportArticle => {
@@ -35,12 +35,8 @@ const getSports = async () => {
       // let link = document.createTextNode('Read More')
       // button.append(a)
       // a.appendChild(link)
-      let readMoreButton = document.getElementsByClassName('readmore-button')
-      readMoreButton.addEventListener('click', function () {
-        document.location.href = `${sportArticle.url}`
-      })
-    })
-  } catch (error) {
+  })
+} catch (error) {
     console.log(error)
   }
 }
@@ -49,6 +45,12 @@ function readMore() {
 let sportButton = document.querySelector('.sports')
 sportButton.addEventListener('click', getSports)
 
+let readMoreButton = document.querySelectorAll('readmore-button')
+for (let i = 0; i < readMoreButton.length; i++) {
+  readMoreButton.addEventListener('click', function () {
+    readMoreButton.href = `${sportArticle.url}`
+  })
+}
 
 const removeArticles = () => {
   let articleRemove = document.querySelector('.article-container')
@@ -64,7 +66,7 @@ const getEntertainment = async () => {
   console.log(entertainment.data.data)
 
   removeArticles()
-  
+
   try {
 
     entertainment.data.data.forEach(entertainmentArticle => {

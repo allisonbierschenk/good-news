@@ -109,7 +109,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Basic CSS | H | 2hrs| n/a | n/a |
 | Load more button | L | 3hrs| n/a | n/a |
 | Load URL for each article | L | 2hrs| n/a | 2hrs |
-| Delete past results function | M | 2hrs| n/a | n/a |
+| Delete past results function | M | 2hrs| n/a | 30min |
 | Flexbox | H | 2hrs| n/a | n/a |
 | Customize dropdown | L | 2hrs| n/a | n/a |
 | Customize CSS for dropdown section | L | 3hrs| n/a | n/a |

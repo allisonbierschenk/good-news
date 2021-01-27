@@ -107,8 +107,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Add event listener to button options | H | 3hrs| n/a | 1hr |
 | Customize HTML | H | 1hr| n/a | n/a |
 | Basic CSS | H | 2hrs| n/a | n/a |
-| Load more button | L | 3hrs| n/a | n/a |
-| Load URL for each article | L | 2hrs| n/a | 2hrs |
+| Load more button | L | 3hrs| n/a | 2hrs |
+| Load URL for each article | L | 2hrs| n/a | 3hrs |
+| Open read more link in a new tab | L | 2hrs| n/a | 2hrs |
 | Delete past results function | M | 2hrs| n/a | 30min |
 | Flexbox | H | 2hrs| n/a | n/a |
 | Customize dropdown | L | 2hrs| n/a | n/a |

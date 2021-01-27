@@ -133,3 +133,5 @@ function reverse(string) {
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
+
+ 1. changed the dropdown to a list of buttons 

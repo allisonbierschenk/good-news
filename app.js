@@ -45,10 +45,11 @@ function readMore() {
 let sportButton = document.querySelector('.sports')
 sportButton.addEventListener('click', getSports)
 
-let readMoreButton = document.querySelectorAll('readmore-button')
+let readMoreButton = document.getElementsByClassName('readmore-button')
 for (let i = 0; i < readMoreButton.length; i++) {
   readMoreButton.addEventListener('click', function () {
-    readMoreButton.href = `${sportArticle.url}`
+    readMoreButton. = `${sportArticle.url}`
+    // document.readMoreButton.href = `${sportArticle.url}`
   })
 }
 

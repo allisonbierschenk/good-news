@@ -105,16 +105,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Add baseline JS to call on API | H | 3hrs| n/a | 4hrs |
 | Testing and tweaking JS to fit the API | H | 3hrs| n/a | n/a |
 | Add event listener to button options | H | 3hrs| n/a | 1hr |
-| Customize HTML | H | 1hr| n/a | n/a |
+| Customize HTML | H | 1hr| n/a | 45min |
 | Basic CSS | H | 2hrs| n/a | n/a |
 | Load more button | L | 3hrs| n/a | 2hrs |
 | Load URL for each article | L | 2hrs| n/a | 3hrs |
 | Open read more link in a new tab | L | 2hrs| n/a | 2hrs |
 | Delete past results function | M | 2hrs| n/a | 30min |
-| Flexbox | H | 2hrs| n/a | n/a |
-| Customize dropdown | L | 2hrs| n/a | n/a |
-| Customize CSS for dropdown section | L | 3hrs| n/a | n/a |
-| Customize CSS for results section | L | 3hrs| n/a | n/a |
+| Flexbox | H | 2hrs| n/a | 4hrs |
+| Customize sidebar buttons | L | 2hrs| n/a | 2hrs |
+| Customize CSS for results section | L | 3hrs| n/a | 3hrs |
 | Make the sidebar sticky | L | 2hrs| n/a | n/a |
 | Mobile friendly CSS | H | 3hrs| n/a | n/a |
 | Final debugging | H | 3hrs| n/a | n/a |
@@ -135,3 +134,5 @@ function reverse(string) {
  Use this section to document what changes were made and the reasoning behind those changes.  
 
  1. changed the dropdown to a list of buttons 
+ 2. going to attempt to add a top news section
+ 3. removed load more option after spending 2 hours on it

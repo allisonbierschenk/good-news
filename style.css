@@ -38,6 +38,14 @@ div {
   justify-content: space-between;
   width: 100%;
 }
+.toparticle-container {
+  display: flex;
+  flex-wrap: wrap; 
+  border: solid 3px black;
+  line-height: 30px;
+  margin: 0% 1% 1% 0%;
+  /* justify-content: space-between; */
+}
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sticky_element */
 
@@ -81,7 +89,6 @@ div {
   display: flex;
   flex-direction: column;
   float: inline-end;
-
   /* text-align: center; */
 }
 
@@ -91,9 +98,8 @@ div {
   border: solid 3px black;
   line-height: 30px;
   margin: 0% 1% 1% 0%;
-  justify-content: space-between;
-
-
+  /* justify-content: space-between; */
+  height: 200px;
 }
 
 .title-orientation {
@@ -104,9 +110,9 @@ div {
 }
 
 .image-custom {
-  height: auto;
-  width: 210px;
-  margin: 1%;
+  height: 120px;
+  width: auto;
+  margin: .5%;
 
 }
 
@@ -127,10 +133,13 @@ div {
 
 .button-style {
   font-size: 20px;
+  /* justify-content: space-between;
+  justify-content:flex-end; */
   flex: 1 0 100%;
   border: none;
   outline: aqua;
   background-image: linear-gradient(white, rgb(220, 219, 219));
+  /* height: 30px; */
 
   }
 

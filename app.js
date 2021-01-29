@@ -6,7 +6,7 @@ async function fetchTopNews () {
     response.data.data.forEach(topNews => {
     let container = document.querySelector('.top-stories')
     let topStoryContainer = document.createElement('div')
-    topStoryContainer.classList.add('article-container')
+    topStoryContainer.classList.add('toparticle-container')
       container.append(topStoryContainer)
       
       let image = document.createElement('img')

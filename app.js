@@ -3,10 +3,11 @@ async function fetchTopNews () {
   const url = `https://api.thenewsapi.com/v1/news/top?api_token=lP5M2Cl2kxTGETo0jr47ofrTkKI0F36z4lIzIBhw&language=en&categories=food,travel,science,health&exclude_categories=general&limit=2`
   try {
     let response = await axios.get(url)
-    response.data.data.forEach(topNews => {
+    response.data.data.forEach((topNews, index) => {
     let container = document.querySelector('.top-stories')
     let topStoryContainer = document.createElement('div')
-    topStoryContainer.classList.add('toparticle-container')
+      topStoryContainer.classList.add('toparticle-container')
+      topStoryContainer.classList.add(`toparticle-container${index}`)
       container.append(topStoryContainer)
       
       let image = document.createElement('img')
@@ -30,6 +31,7 @@ async function fetchTopNews () {
 
       let button = document.createElement('button')
       button.classList.add('button-style')
+      button.classList.add('button-style-top')
       topStoryContainer.append(button)
 
       let a = document.createElement('a')

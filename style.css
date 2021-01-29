@@ -240,12 +240,19 @@ div {
       font-size: unset;
     }
     .buttons {
-      background-image: aqua;
       flex-direction: row;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
       float: none;
       font-size: unset;
       position:static;
+    }
+    .sports,
+    .entertainment,
+    .food,
+    .travel {
+      background-image: linear-gradient(to left, white, white);
+      border: dotted 2px black;
+      margin: 1px;
     }
 
   }

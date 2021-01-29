@@ -114,7 +114,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Flexbox | H | 2hrs| n/a | 4hrs |
 | Customize sidebar buttons | L | 2hrs| n/a | 2hrs |
 | Customize CSS for results section | L | 3hrs| n/a | 3hrs |
-| Make the sidebar sticky | L | 2hrs| n/a | n/a |
+| Make the sidebar sticky | L | 2hrs| n/a | 10min |
 | Mobile friendly CSS | H | 3hrs| n/a | n/a |
 | Final debugging | H | 3hrs| n/a | n/a |
 | Go live | H | 2hrs| n/a | n/a |

@@ -1,19 +1,57 @@
 // TOP NEWS
 async function fetchTopNews () {
-  const url = `https://api.thenewsapi.com/v1/news/top?api_token=ri3ZcpEipezAtwaf7lvk6o5r5hNFFBkPmND5ISaw&language=en&locale=us&categories=food,travel&exclude_categories=general`
-
+  const url = `https://api.thenewsapi.com/v1/news/top?api_token=lP5M2Cl2kxTGETo0jr47ofrTkKI0F36z4lIzIBhw&language=en&categories=food,travel,science,health&exclude_categories=general&limit=2`
   try {
+    let response = await axios.get(url)
+    response.data.data.forEach(topNews => {
+    let container = document.querySelector('.top-stories')
+    let topStoryContainer = document.createElement('div')
+    topStoryContainer.classList.add('article-container')
+      container.append(topStoryContainer)
+      
+      let image = document.createElement('img')
+      image.src = topNews.image_url
+      image.classList.add('image-custom')
+      topStoryContainer.append(image)
+
+      let titleContainer = document.createElement('div')
+      titleContainer.classList.add('title-orientation')
+      topStoryContainer.append(titleContainer)
+
+      let title = document.createElement('h1')
+      title.textContent = topNews.title
+      title.classList.add('title-custom')
+      titleContainer.append(title)
+
+      let description = document.createElement('p')
+      description.textContent = topNews.description
+      description.classList.add('description-custom')
+      titleContainer.append(description)
+
+      let button = document.createElement('button')
+      button.classList.add('button-style')
+      topStoryContainer.append(button)
+
+      let a = document.createElement('a')
+      a.classList.add('readmore-button-text')
+      a.href = topNews.url
+      let link = document.createTextNode('Read More')
+      button.append(a)
+      a.appendChild(link)
+
+    })
 
   } catch (error) {
     console.log(error)
 
   }
 }
+fetchTopNews()
 
 
 //SPORTS
 const getSports = async () => {
-  let sports = await axios.get('https://api.thenewsapi.com/v1/news/all?api_token=ri3ZcpEipezAtwaf7lvk6o5r5hNFFBkPmND5ISaw&language=en&categories=sports&exclude_categories=general&locale=us')
+  let sports = await axios.get('https://api.thenewsapi.com/v1/news/all?api_token=lP5M2Cl2kxTGETo0jr47ofrTkKI0F36z4lIzIBhw&language=en&categories=sports&exclude_categories=general&locale=us')
   console.log(sports.data.data)
   removeArticles()
   try {

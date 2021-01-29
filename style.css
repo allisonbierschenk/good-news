@@ -1,31 +1,54 @@
 body {
   font-family: 'Pragati Narrow', sans-serif;
-  margin: 20px 100px 20px 100px;
-  line-height: 30px;
+  margin: 0px 100px;
+}
+.hero {
+  height: 300px;
+  width: auto;
+ background-image: url(https://i.imgur.com/FOtTO6t.jpg?1);
+
 }
 .heroh1{
   font-family: 'Monoton', cursive;
   font-weight: lighter;
   text-align: center;
   font-size: 60px;
+  color: white;
+  text-shadow: -1px 2px 2px #000000;
+
 }
 
 h2 {
   text-align: center;
-  margin: 0px 200px 100px 200px;
+  margin: 0% 10% 5% 10%;
   font-weight: lighter;
   line-height: 30px;
+  color: white;
+  text-shadow: -1px 2px 2px #000000;
+  /* https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/ */
 }
 
 div {
   margin-bottom: 20px;
 }
 
+.top-stories{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sticky_element */
+
 .buttons {
   display: flex;
   flex-direction: column;
   float: left;
-  margin-top: 2%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  
 }
 
 .sports,
@@ -39,22 +62,27 @@ div {
   border: none;
   margin-bottom: 1%;
   outline: aqua;
+  background-image: linear-gradient(to left, white, rgb(220, 219, 219));
+
 }
 
 .sports:hover,
 .entertainment:hover,
 .food:hover,
 .travel:hover {
-  background-color: aqua;
+  background-image: linear-gradient(to right, aqua , aqua);
   outline: aqua;
 }
 
+.results-main{
+  margin: 0px;
+}
 .all-articles-container {
   display: flex;
   flex-direction: column;
-  padding: 20px;
   float: inline-end;
-  margin-right: 100px;
+
+  /* text-align: center; */
 }
 
 .article-container {
@@ -62,17 +90,22 @@ div {
   flex-wrap: wrap; 
   border: solid 3px black;
   line-height: 30px;
+  margin: 0% 1% 1% 0%;
+  justify-content: space-between;
+
+
 }
 
 .title-orientation {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   flex: 1 0 50%
 }
 
 .image-custom {
-  height: 30%;
-  width: 30%;
+  height: auto;
+  width: 210px;
   margin: 1%;
 
 }
@@ -97,9 +130,11 @@ div {
   flex: 1 0 100%;
   border: none;
   outline: aqua;
+  background-image: linear-gradient(white, rgb(220, 219, 219));
+
   }
 
   .button-style:hover{
-    background-color: aqua;
+    background-image: linear-gradient(aqua,aqua);
     outline: aqua;
   }

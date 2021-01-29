@@ -59,14 +59,14 @@ div {
 
 .title-orientation{
   grid-area: header;
-  /* .title-orientation {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    flex: 1 0 50%
-  } */
 }
 
+.title-orientation {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1 0 50%
+}
 
 .button-style-top {
   grid-area: button;
@@ -74,10 +74,10 @@ div {
 }
 
 .toparticle-container0 {
-  margin-right: 1%;
+  margin-right: .5%;
 }
 .toparticle-container1 {
-  margin-left: 1%;
+  margin-left: .5%;
 }
 
 .buttons {
@@ -171,4 +171,81 @@ div {
   .button-style:hover{
     background-image: linear-gradient(aqua,aqua);
     outline: aqua;
+  }
+
+  @media screen and (max-width: 500px ) {
+    body {
+      margin: unset;
+    }
+    .hero{
+      display: block;
+      background-image: none;
+      background-color: black;
+      height:unset;
+
+    }
+    .top-stories {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+
+    .heroh1 {
+      font-size: 32px;
+    }
+
+    h2 {
+      font-size: 20px;
+      line-height: normal;
+    }
+
+    /* .toparticle-container {
+      display: flex;
+      flex-direction: column;
+      width:unset;
+      line-height: unset;
+    } */
+
+    .toparticle-container0 {
+      margin-right:unset;
+      /* height: 100px; */
+    }
+    .toparticle-container1 {
+      margin-left:unset;
+    }
+
+    .title-orientation {
+      font-size: 10px;
+    }
+
+    .description-custom {
+      display: none;
+    }
+
+    .button-style-top {
+      align-self:flex-start;
+      font-size: unset;
+      background-image: aqua;
+    }
+    .toparticle-container img {
+      height: auto;
+      width: 150px;
+    }
+    .image-custom {
+      height: auto;
+      width: 150px;
+      }
+
+    .button-style {
+      font-size: unset;
+    }
+    .buttons {
+      background-image: aqua;
+      flex-direction: row;
+      flex-wrap: wrap;
+      float: none;
+      font-size: unset;
+      position:static;
+    }
+
   }

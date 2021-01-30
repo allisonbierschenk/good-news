@@ -1,11 +1,18 @@
 body {
   font-family: 'Pragati Narrow', sans-serif;
-  margin: 0px 100px;
+  margin: 0px 0px;
+  color: rgb(1, 1, 46);
 }
+
+main{
+  margin: 0% 10%;
+}
+
 .hero {
   height: 300px;
   width: auto;
-  background-image: url(https://i.imgur.com/FOtTO6t.jpg?1);
+  background-image: url(https://i.imgur.com/nTL5V46.jpg?1);
+  
 
 }
 .heroh1{
@@ -14,7 +21,8 @@ body {
   text-align: center;
   font-size: 60px;
   color: white;
-  text-shadow: -1px 2px 2px #000000;
+  text-shadow: -1px 2px 2px aqua;
+  margin: 0px 0px;
 
 }
 
@@ -24,7 +32,7 @@ h2 {
   font-weight: lighter;
   line-height: 30px;
   color: white;
-  text-shadow: -1px 2px 2px #000000;
+  text-shadow: -1px 2px 2px rgb(1, 1, 46);
   /* https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/ */
 }
 
@@ -37,18 +45,18 @@ div {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  
 }
+
 .toparticle-container {
   display: grid;
   grid-template-areas: 
   "image header"
   "button button";
-  /* flex-wrap: wrap;  */
-  border: solid 3px black;
+  border: solid 3px rgb(1, 1, 46);
   line-height: 30px;
   width: 100%;
-  /* margin: 0% 1% 1% 0%; */
-  /* justify-content: space-between; */
+  
 }
 
 .toparticle-container img {
@@ -96,42 +104,42 @@ div {
 .food,
 .travel {
   font-family: 'Pragati Narrow', sans-serif;
+  color: rgb(1, 1, 46);
   font-size: 20px;
   width: 200px;
   height: 30px;
   border: none;
   margin-bottom: 1%;
   outline: aqua;
-  background-image: linear-gradient(to left, white, rgb(220, 219, 219));
-
+  text-align: left;
+  background-image: linear-gradient(to left, white, rgb(194, 231, 247));
 }
 
 .sports:hover,
 .entertainment:hover,
 .food:hover,
 .travel:hover {
-  background-image: linear-gradient(to right, aqua , aqua);
-  outline: aqua;
+  /* background-image: linear-gradient(to right, rgb(1, 1, 46) , rgb(1, 1, 46)); */
+  /* outline: rgb(1, 1, 46); */
+  color: white;
 }
 
 .results-main{
   margin: 0px;
 }
+
 .all-articles-container {
   display: flex;
   flex-direction: column;
   float: inline-end;
-  /* text-align: center; */
 }
 
 .article-container {
   display: flex;
   flex-wrap: wrap; 
-  border: solid 3px black;
+  border: solid 3px rgb(1, 1, 46);
   line-height: 30px;
   margin: 0% 1% 1% 0%;
-  /* justify-content: space-between; */
-  /* height: 200px; */
 }
 
 
@@ -145,7 +153,7 @@ div {
 .readmore-button-text{
   text-decoration: none;
   font-family: 'Pragati Narrow', sans-serif;
-  color: black;
+  color: rgb(1, 1, 46);
 }
 
 .title-custom {
@@ -159,28 +167,65 @@ div {
 
 .button-style {
   font-size: 20px;
-  /* justify-content: space-between;
-  justify-content:flex-end; */
   flex: 1 0 100%;
   border: none;
-  outline: aqua;
-  background-image: linear-gradient(white, rgb(220, 219, 219));
-  /* height: 30px; */
+  outline: rgb(1, 1, 46);
+  background-image: linear-gradient(white, rgb(194, 231, 247));
   }
 
   .button-style:hover{
-    background-image: linear-gradient(aqua,aqua);
-    outline: aqua;
+    background-image: linear-gradient(to right, rgb(1, 1, 46) , rgb(1, 1, 46));
+    outline: rgb(1, 1, 46);
+    color: white; 
   }
 
-  @media screen and (max-width: 500px ) {
+  @media screen and (max-width: 1024px ) {
+    .description-custom {
+      display: none;
+    }
+    .title-orientation {
+      font-size: 10px;
+    }
     body {
-      margin: unset;
+      margin: 0px 0px;
+    }
+
+  }
+
+  @media screen and (max-width: 875px) {
+    .toparticle-container {
+      display:grid;
+      grid-template-areas: 
+      "image" 
+      "header"
+      "button button";
+    }
+
+    .buttons {
+      flex-direction: row;
+      float: none;
+      font-size: unset;
+      position:static;
+    }
+
+    .sports,
+    .entertainment,
+    .food,
+    .travel {
+      background-image: linear-gradient(to left, white, white);
+      border: groove 2px rgb(1, 1, 46);
+      margin: 1px;
+    }
+} 
+
+  @media screen and (max-width: 750px ) {
+    body {
+      margin: none;
     }
     .hero{
       display: block;
       background-image: none;
-      background-color: black;
+      background-color: rgb(1, 1, 46);
       height:unset;
 
     }
@@ -199,19 +244,11 @@ div {
       line-height: normal;
     }
 
-    /* .toparticle-container {
-      display: flex;
-      flex-direction: column;
-      width:unset;
-      line-height: unset;
-    } */
-
     .toparticle-container0 {
       margin-right:unset;
-      /* height: 100px; */
     }
     .toparticle-container1 {
-      margin-left:unset;
+      margin-left: unset;
     }
 
     .title-orientation {
@@ -241,7 +278,6 @@ div {
     }
     .buttons {
       flex-direction: row;
-      /* flex-wrap: wrap; */
       float: none;
       font-size: unset;
       position:static;
@@ -251,8 +287,10 @@ div {
     .food,
     .travel {
       background-image: linear-gradient(to left, white, white);
-      border: dotted 2px black;
+      border: groove 2px rgb(1, 1, 46);
       margin: 1px;
     }
 
   }
+
+ 

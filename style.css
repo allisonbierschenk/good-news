@@ -38,6 +38,21 @@ main{
 
 }
 
+h3 {
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-direction: reverse;
+}
+
+@keyframes bounce {
+  0% {
+    transform: bounce(0);
+  }
+  100% {
+    transform: bounce(360deg);
+  }
+}
+
 h2 {
   text-align: center;
   margin: 0% 20% 5% 20%;

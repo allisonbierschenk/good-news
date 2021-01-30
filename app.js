@@ -1,6 +1,6 @@
 // TOP NEWS
 async function fetchTopNews () {
-  const url = `https://api.thenewsapi.com/v1/news/top?api_token=ri3ZcpEipezAtwaf7lvk6o5r5hNFFBkPmND5ISaw&language=en&categories=food,travel,science,health&exclude_categories=general&limit=2`
+  const url = `https://api.thenewsapi.com/v1/news/top?api_token=lP5M2Cl2kxTGETo0jr47ofrTkKI0F36z4lIzIBhw&language=en&categories=food,travel,science,health&exclude_categories=general&limit=2`
   try {
     let response = await axios.get(url)
     response.data.data.forEach((topNews, index) => {
@@ -53,7 +53,7 @@ fetchTopNews()
 
 //SPORTS
 const getSports = async () => {
-  let sports = await axios.get('https://api.thenewsapi.com/v1/news/all?api_token=ri3ZcpEipezAtwaf7lvk6o5r5hNFFBkPmND5ISaw&language=en&categories=sports&exclude_categories=general&locale=us')
+  let sports = await axios.get('https://api.thenewsapi.com/v1/news/all?api_token=lP5M2Cl2kxTGETo0jr47ofrTkKI0F36z4lIzIBhw&language=en&categories=sports&exclude_categories=general&locale=us')
   console.log(sports.data.data)
   removeArticles()
   try {

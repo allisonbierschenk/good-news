@@ -2,6 +2,7 @@ body {
   font-family: 'Pragati Narrow', sans-serif;
   margin: 0px 0px;
   color: rgb(1, 1, 46);
+  /* background-image: url(https://i.imgur.com/SdfRJYl.jpg); */
 }
 
 main{
@@ -109,6 +110,7 @@ div {
   width: 200px;
   height: 30px;
   border: none;
+  padding-bottom: 30px;
   margin-bottom: 1%;
   outline: aqua;
   text-align: left;
@@ -119,8 +121,8 @@ div {
 .entertainment:hover,
 .food:hover,
 .travel:hover {
-  /* background-image: linear-gradient(to right, rgb(1, 1, 46) , rgb(1, 1, 46)); */
-  /* outline: rgb(1, 1, 46); */
+  background-image: linear-gradient(to right, rgb(1, 1, 46) , rgb(1, 1, 46));
+  outline: rgb(1, 1, 46);
   color: white;
 }
 
@@ -155,6 +157,10 @@ div {
   font-family: 'Pragati Narrow', sans-serif;
   color: rgb(1, 1, 46);
 }
+ 
+.readmore-button-text:hover {
+  color: white;
+}
 
 .title-custom {
   margin: 1%;
@@ -174,7 +180,7 @@ div {
   }
 
   .button-style:hover{
-    background-image: linear-gradient(to right, rgb(1, 1, 46) , rgb(1, 1, 46));
+    background-image: linear-gradient(rgb(194, 231, 247), rgb(194, 231, 247) );
     outline: rgb(1, 1, 46);
     color: white; 
   }
@@ -208,12 +214,16 @@ div {
       position:static;
     }
 
+    .article-container {
+      margin: 0px 0px 20px 0px;  
+    }
+
     .sports,
     .entertainment,
     .food,
     .travel {
       background-image: linear-gradient(to left, white, white);
-      border: groove 2px rgb(1, 1, 46);
+      border: groove 3px rgb(1, 1, 46);
       margin: 1px;
     }
 } 
@@ -240,7 +250,7 @@ div {
     }
 
     h2 {
-      font-size: 20px;
+      font-size: 16px;
       line-height: normal;
     }
 
@@ -287,7 +297,7 @@ div {
     .food,
     .travel {
       background-image: linear-gradient(to left, white, white);
-      border: groove 2px rgb(1, 1, 46);
+      border: groove 3px rgb(1, 1, 46);
       margin: 1px;
     }
 

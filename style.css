@@ -9,6 +9,17 @@ main{
   margin: 0% 10%;
 }
 
+.point {
+  width: 6px;
+  height: 6px;
+  background: tomato;
+  transition: width 1s ease;
+}
+
+.point:hover {
+  width: 200px;
+}
+
 .hero {
   height: 300px;
   width: auto;
@@ -29,9 +40,10 @@ main{
 
 h2 {
   text-align: center;
-  margin: 0% 10% 5% 10%;
+  margin: 0% 20% 5% 20%;
   font-weight: lighter;
   line-height: 30px;
+  font-size: 1.6em;
   color: white;
   text-shadow: -1px 2px 2px rgb(1, 1, 46);
   /* https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/ */

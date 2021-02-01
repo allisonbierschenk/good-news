@@ -228,7 +228,7 @@ div {
   }
 
   /* start of media queries */
-  
+
   @media screen and (max-width: 1048px ) {
     .description-custom {
       display: none;
@@ -418,11 +418,11 @@ div {
       background-image: aqua;
     }
     .toparticle-container img {
-      height: auto;
+      height: 50px;
       width: 100px;
     }
     .image-custom {
-      height: auto;
+      height: 50px;
       width: 100px;
       }
 

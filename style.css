@@ -39,6 +39,14 @@ h2 {
   /* https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/ */
 }
 
+.top-stories-header {
+  margin: 1% 10% 1% 10%;
+  color: rgb(1, 1, 46);
+  background-color: white;
+  text-shadow: none;
+  font-size: 36px;
+}
+
 div {
   margin-bottom: 20px;
 }
@@ -191,9 +199,10 @@ div {
   }
 
   .newsletter {
-    text-align: center;
-    
+    text-align: left;
+    margin: 1% 10% 0% 10%;    
   }
+
   ::placeholder{
     color:rgb(97, 179, 179);
     
@@ -218,7 +227,7 @@ div {
     margin-bottom: .2%;
   }
 
-  @media screen and (max-width: 1024px ) {
+  @media screen and (max-width: 1048px ) {
     .description-custom {
       display: none;
     }
@@ -227,6 +236,9 @@ div {
     }
     body {
       margin: 0px 0px;
+    }
+    .top-stories-header {
+      font-size: 26px;
     }
 
   }
@@ -238,6 +250,10 @@ div {
       "image" 
       "header"
       "button button";
+    }
+
+    .top-stories-header {
+      font-size: 22px;
     }
 
     .buttons {
@@ -266,6 +282,10 @@ div {
       margin: none;
     }
 
+    .top-stories-header {
+      font-size: 22px;
+    }
+
     .hero{
       display: block;
       background-image: none;
@@ -285,6 +305,10 @@ div {
 
     .heroh1 {
       font-size: 32px;
+    }
+
+    .top-stories-header {
+      font-size: 26px;
     }
 
     h2 {

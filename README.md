@@ -64,16 +64,16 @@ The GoodDay News App is a place where people come to see news that brightens up 
 ### MVP/PostMVP
 
 #### MVP 
-- dropdown feature: categories
+- button features
 - 5 articles appear on click of 'category'
 - images included in article links
 
 #### PostMVP  
 - Sticky category side bar
-- load more button
 - remove articles when a new category is clicked
 - link out to full article
 - top result to be highlighted in a speical border box
+- newsletter sign up
 
 ## Project Schedule
 

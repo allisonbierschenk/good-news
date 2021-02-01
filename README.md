@@ -84,11 +84,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Jan 25-26| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|Jan 26| Project Approval | Incomplete
-|Jan 27| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Jan 28| Initial Clickable Model  | Incomplete
-|Jan 29| MVP | Incomplete
-|Feb 1| Presentations/Project Submission | Incomplete
+|Jan 26| Project Approval | Complete
+|Jan 27| Core Application Structure (HTML, CSS, etc.) | Complete
+|Jan 28| Initial Clickable Model  | Complete
+|Jan 29| MVP | Complete
+|Feb 1| Presentations/Project Submission | Complete
 
 ## Priority Matrix
 [Priority Matrix](https://wireframe.cc/pro/pp/3a2d2487a409959)
@@ -103,10 +103,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Add baseline HTML | H | 1hr| n/a | 30 min |
 | Add baseline JS to call on API | H | 3hrs| n/a | 4hrs |
-| Testing and tweaking JS to fit the API | H | 3hrs| n/a | n/a |
+| Testing and tweaking JS to fit the API | H | 3hrs| n/a | 1hr |
 | Add event listener to button options | H | 3hrs| n/a | 1hr |
 | Customize HTML | H | 1hr| n/a | 45min |
-| Basic CSS | H | 2hrs| n/a | n/a |
+| Basic CSS | H | 2hrs| n/a | 2hrs |
 | Load more button | L | 3hrs| n/a | 2hrs |
 | Load URL for each article | L | 2hrs| n/a | 3hrs |
 | Open read more link in a new tab | L | 2hrs| n/a | 2hrs |
@@ -115,20 +115,24 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Customize sidebar buttons | L | 2hrs| n/a | 2hrs |
 | Customize CSS for results section | L | 3hrs| n/a | 3hrs |
 | Make the sidebar sticky | L | 2hrs| n/a | 10min |
-| Mobile friendly CSS | H | 3hrs| n/a | n/a |
-| Final debugging | H | 3hrs| n/a | n/a |
-| Go live | H | 2hrs| n/a | n/a |
-| Total | H | 40hrs| n/a | n/a |
+| Mobile friendly CSS | H | 3hrs| n/a | 4hrs |
+| Final debugging | H | 3hrs| n/a | 2hrs |
+| Go live | H | 2hrs| n/a | ??? |
+| Total | H | 39hrs| n/a | n/a |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+let newsletterButton = document.querySelector('button')
+newsletterButton.addEventListener('click', clearForm )
+let form = document.querySelector('.form')
+function clearForm() {
+  document.getElementById('output').value = '';
 }
 ```
+I am proud of this code because I knew what I wnated to do and I was able to come up with this block of code entirely by myself based on what I had learned in unit 1.
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  

@@ -1,4 +1,4 @@
-//Newsletter sign up reset
+//Newsletter sign up reset ***MY FAVORITE CODE***
 //https://stackoverflow.com/questions/16198652/clearing-a-form-field-in-javascript-upon-click
 let newsletterButton = document.querySelector('button')
 newsletterButton.addEventListener('click', clearForm )

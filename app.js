@@ -1,3 +1,12 @@
+//Newsletter sign up reset
+//https://stackoverflow.com/questions/16198652/clearing-a-form-field-in-javascript-upon-click
+let newsletterButton = document.querySelector('button')
+newsletterButton.addEventListener('click', clearForm )
+let form = document.querySelector('.form')
+function clearForm() {
+  document.getElementById('output').value = '';
+}
+
 // TOP NEWS
 async function fetchTopNews () {
   const url = `https://api.thenewsapi.com/v1/news/top?api_token=lP5M2Cl2kxTGETo0jr47ofrTkKI0F36z4lIzIBhw&language=en&categories=food,travel,science,health&exclude_categories=general&limit=2`

@@ -10,6 +10,7 @@ main{
 
 .hero {
   height: 300px;
+  margin: none;
   width: auto;
   background-image: url(https://i.imgur.com/SdfRJYl.jpg?1);
   
@@ -125,10 +126,13 @@ div {
   background-image: linear-gradient(to right, rgb(1, 1, 46) , rgb(1, 1, 46));
   outline: rgb(1, 1, 46);
   color: white;
+  cursor: pointer;
+
 }
 
 .results-main{
-  margin: 0px;
+  margin: 0% 0%;
+
 }
 
 .all-articles-container {
@@ -142,7 +146,7 @@ div {
   flex-wrap: wrap; 
   border: solid 3px rgb(1, 1, 46);
   line-height: 30px;
-  margin: 0% 1% 1% 0%;
+  margin: 0% 0% 1% 0%;
 }
 
 
@@ -186,6 +190,34 @@ div {
     color: white; 
   }
 
+  .newsletter {
+    text-align: center;
+    
+  }
+  ::placeholder{
+    color:rgb(97, 179, 179);
+    
+  }
+  input {
+    border-color: rgb(1, 1, 46);
+    outline: rgb(1, 1, 46);
+  }
+
+  button{
+    border-color: rgb(1, 1, 46);
+    color:white;
+    background-image: linear-gradient(to right, rgb(1, 1, 46) , rgb(1, 1, 46));
+    outline: rgb(1, 1, 46);
+  }
+
+  button:hover {
+    background-image: linear-gradient(to right, aqua , aqua);
+  }
+
+  .form{
+    margin-bottom: .2%;
+  }
+
   @media screen and (max-width: 1024px ) {
     .description-custom {
       display: none;
@@ -224,7 +256,7 @@ div {
     .food,
     .travel {
       background-image: linear-gradient(to left, white, white);
-      border: groove 3px rgb(1, 1, 46);
+      border: solid 3px rgb(1, 1, 46);
       margin: 1px;
     }
 } 
@@ -303,8 +335,96 @@ div {
     .food,
     .travel {
       background-image: linear-gradient(to left, white, white);
-      border: groove 3px rgb(1, 1, 46);
+      border: solid 3px rgb(1, 1, 46);
       margin: 1px;
+    }
+
+  }
+
+  @media screen and (max-width: 350px ) {
+    main {
+      margin: 2px;
+    }
+
+    body {
+      margin: 2px;
+    }
+
+    .results-main {
+      margin: 0px;
+    }
+
+    .hero{
+      display: block;
+      background-image: none;
+      background-color: rgb(1, 1, 46);
+      height:unset;
+    }
+
+    h2 {
+      background-color: rgb(1, 1, 46);
+    }
+
+    .top-stories {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+
+    .heroh1 {
+      font-size: 32px;
+    }
+
+    h2 {
+      font-size: 16px;
+      line-height: normal;
+    }
+
+    .toparticle-container0 {
+      margin-right:unset;
+    }
+    .toparticle-container1 {
+      margin-left: unset;
+    }
+
+    .title-orientation {
+      font-size: 10px;
+    }
+
+    .description-custom {
+      display: none;
+    }
+
+    .button-style-top {
+      align-self:flex-start;
+      font-size: unset;
+      background-image: aqua;
+    }
+    .toparticle-container img {
+      height: auto;
+      width: 100px;
+    }
+    .image-custom {
+      height: auto;
+      width: 100px;
+      }
+
+    .button-style {
+      font-size: unset;
+    }
+    .buttons {
+      flex-direction: row;
+      float: none;
+      font-size: unset;
+      position:static;
+      margin: 0px;
+    }
+    .sports,
+    .entertainment,
+    .food,
+    .travel {
+      background-image: linear-gradient(to left, white, white);
+      border: solid 3px rgb(1, 1, 46);
     }
 
   }

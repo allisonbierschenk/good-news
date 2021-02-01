@@ -63,7 +63,6 @@ fetchTopNews()
 //SPORTS
 const getSports = async () => {
   let sports = await axios.get('https://api.thenewsapi.com/v1/news/all?api_token=lP5M2Cl2kxTGETo0jr47ofrTkKI0F36z4lIzIBhw&language=en&categories=sports&exclude_categories=general&locale=us')
-  console.log(sports.data.data)
   removeArticles()
   try {
     sports.data.data.forEach(sportArticle => {
@@ -120,7 +119,6 @@ sportButton.addEventListener('click', getSports)
   //ENTERTAINMENT
   const getEntertainment = async () => {
     let entertainment = await axios.get('https://api.thenewsapi.com/v1/news/all?api_token=lP5M2Cl2kxTGETo0jr47ofrTkKI0F36z4lIzIBhw&language=en&categories=entertainment&exclude_categories=general&locale=us')
-    console.log(entertainment.data.data)
     removeArticles()
     try {
       entertainment.data.data.forEach(entertainmentArticle => {
@@ -170,7 +168,6 @@ entertainmentButton.addEventListener('click', getEntertainment)
   //TRAVEL
   const getTravel = async () => {
     let travel = await axios.get('https://api.thenewsapi.com/v1/news/all?api_token=lP5M2Cl2kxTGETo0jr47ofrTkKI0F36z4lIzIBhw&language=en&categories=travel&exclude_categories=general&locale=us')
-    console.log(travel.data.data)
     removeArticles()
     try {
       travel.data.data.forEach(travelArticle => {
@@ -220,7 +217,6 @@ travelButton.addEventListener('click', getTravel)
   //FOOD
   const getFood = async () => {
     let food = await axios.get('https://api.thenewsapi.com/v1/news/all?api_token=lP5M2Cl2kxTGETo0jr47ofrTkKI0F36z4lIzIBhw&language=en&categories=food&exclude_categories=general&locale=us')
-    console.log(food.data.data)
     removeArticles()
     try {
       food.data.data.forEach(foodArticle => {

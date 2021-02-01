@@ -227,6 +227,8 @@ div {
     margin-bottom: .2%;
   }
 
+  /* start of media queries */
+  
   @media screen and (max-width: 1048px ) {
     .description-custom {
       display: none;

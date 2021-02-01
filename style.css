@@ -427,6 +427,7 @@ div {
       }
 
     .buttons {
+      display: inline-block;
       flex-direction: row;
       float: none;
       justify-content: space-between;

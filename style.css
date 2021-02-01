@@ -260,7 +260,9 @@ div {
       flex-direction: row;
       float: none;
       font-size: unset;
+      justify-content: space-between;
       position:static;
+      margin: 0px 0px 10px 0px;
     }
 
     .article-container {
@@ -283,7 +285,7 @@ div {
     }
 
     .top-stories-header {
-      font-size: 22px;
+      font-size: 18px;
     }
 
     .hero{
@@ -312,15 +314,8 @@ div {
     }
 
     h2 {
-      font-size: 16px;
+      font-size: 22px;
       line-height: normal;
-    }
-
-    .toparticle-container0 {
-      margin-right:unset;
-    }
-    .toparticle-container1 {
-      margin-left: unset;
     }
 
     .title-orientation {
@@ -345,27 +340,26 @@ div {
       width: 150px;
       }
 
-    .button-style {
-      font-size: unset;
-    }
     .buttons {
       flex-direction: row;
       float: none;
-      font-size: unset;
+      justify-content: space-between;
       position:static;
+      margin: 0px 0px 10px 0px;
     }
+
     .sports,
     .entertainment,
     .food,
     .travel {
       background-image: linear-gradient(to left, white, white);
       border: solid 3px rgb(1, 1, 46);
-      margin: 1px;
+      justify-content: space-between;
     }
 
   }
 
-  @media screen and (max-width: 350px ) {
+  @media screen and (max-width: 500px ) {
     main {
       margin: 2px;
     }
@@ -374,8 +368,12 @@ div {
       margin: 2px;
     }
 
+    .top-stories-header {
+      font-size: 22px;
+    }
+
     .results-main {
-      margin: 0px;
+      margin: 2px;
     }
 
     .hero{
@@ -387,6 +385,7 @@ div {
 
     h2 {
       background-color: rgb(1, 1, 46);
+      font-size: 18px;
     }
 
     .top-stories {
@@ -404,13 +403,6 @@ div {
       line-height: normal;
     }
 
-    .toparticle-container0 {
-      margin-right:unset;
-    }
-    .toparticle-container1 {
-      margin-left: unset;
-    }
-
     .title-orientation {
       font-size: 10px;
     }
@@ -421,7 +413,6 @@ div {
 
     .button-style-top {
       align-self:flex-start;
-      font-size: unset;
       background-image: aqua;
     }
     .toparticle-container img {
@@ -433,15 +424,12 @@ div {
       width: 100px;
       }
 
-    .button-style {
-      font-size: unset;
-    }
     .buttons {
       flex-direction: row;
       float: none;
-      font-size: unset;
+      justify-content: space-between;
       position:static;
-      margin: 0px;
+      margin: 0px 0px 10px 0px;
     }
     .sports,
     .entertainment,
